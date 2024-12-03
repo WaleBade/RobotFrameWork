@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.2 on win32)" generated="2024-12-02T22:34:32.375234" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Create Account" source="C:\Users\waleb\PycharmProjects\RobotFramework\Web_App_Testing\Login_Create_Account.robot">
+<kw name="Navigate to Luma homepage" owner="WebApp_Keyword" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2024-12-02T22:34:33.452249" level="INFO">Opening browser 'headlesschrome' to base url 'https://magento.softwaretestingboard.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-12-02T22:34:33.451252" elapsed="4.483493"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-12-02T22:34:37.934745" elapsed="0.035902"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-12-02T22:34:37.972641" level="INFO">Clicking element 'xpath://p[@class="fc-button-label"]'.</msg>
+<arg>${CONSENT}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-02T22:34:37.971643" elapsed="0.565488"/>
+</kw>
+<status status="PASS" start="2024-12-02T22:34:33.449259" elapsed="5.087872"/>
+</kw>
+<test id="s1-t1" name="Valid Login" line="9">
+<kw name="Signin with valid credentials" owner="WebApp_Keyword">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-12-02T22:34:38.540125" level="INFO">Clicking element '//ul[@class="header links"]/li[2]/a'.</msg>
+<arg>${SIGNIN_BTN}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-02T22:34:38.540125" elapsed="1.650686"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2024-12-02T22:34:40.191807" level="INFO">Typing text 'testing2023@gmail.com' into text field '//input[@name="login[username]"]'.</msg>
+<arg>${EMAIL_BOX}</arg>
+<arg>${User}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-02T22:34:40.190811" elapsed="0.277258"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2024-12-02T22:34:40.469067" level="INFO">Typing password into text field '//input[@name="login[password]"]'.</msg>
+<msg time="2024-12-02T22:34:40.534891" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>${PASSWORD_BOX}</arg>
+<arg>${Password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-02T22:34:40.468069" elapsed="0.158575"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2024-12-02T22:34:40.627643" level="INFO">Clicking button '//button[@class="action login primary"]'.</msg>
+<arg>${LOGIN_BUTTON}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-02T22:34:40.627643" elapsed="3.065050"/>
+</kw>
+<arg>testing2023@gmail.com</arg>
+<arg>Testing123</arg>
+<status status="PASS" start="2024-12-02T22:34:38.539128" elapsed="5.154562"/>
+</kw>
+<kw name="Wait Until Page Contains" owner="SeleniumLibrary">
+<arg>Welcome, Bisi Balqees!</arg>
+<doc>Waits until ``text`` appears on the current page.</doc>
+<status status="PASS" start="2024-12-02T22:34:43.693690" elapsed="0.101729"/>
+</kw>
+<kw name="Logout User" owner="WebApp_Keyword" type="TEARDOWN">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-12-02T22:34:43.798411" level="INFO">Clicking element '//button[@tabindex="-1"]'.</msg>
+<arg>${TOGGLE_BUTTON}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-02T22:34:43.797415" elapsed="0.077790"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2024-12-02T22:34:43.876201" level="INFO">Clicking element '//ul[@class="header links"]/li[3]'.</msg>
+<arg>${SIGN_OUT_BTN}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2024-12-02T22:34:43.876201" elapsed="1.722091"/>
+</kw>
+<status status="PASS" start="2024-12-02T22:34:43.796415" elapsed="1.801877"/>
+</kw>
+<tag>Positve Test</tag>
+<status status="PASS" start="2024-12-02T22:34:38.538129" elapsed="7.060163"/>
+</test>
+<doc>Test senario related to Luma login and account creation</doc>
+<status status="PASS" start="2024-12-02T22:34:32.379229" elapsed="13.221059"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Positve Test</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Login Create Account">Login Create Account</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

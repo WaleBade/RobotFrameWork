@@ -1,0 +1,36 @@
+1732998032839	geckodriver	INFO	Listening on 127.0.0.1:50916
+1732998035925	mozrunner::runner	INFO	Running command: "C:\\Users\\waleb\\.cache\\selenium\\firefox\\win64\\133.0\\firefox.exe" "--marionette" "--remote-debugging- ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\waleb\\AppData\\Local\\Temp\\rust_mozprofileQJCPn7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1732998036487	Marionette	INFO	Marionette enabled
+1732998036722	Marionette	INFO	Listening on port 50924
+WebDriver BiDi listening on ws://127.0.0.1:50917
+Read port: 50924
+1732998037051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-1SPG0WZDNF&cx=c&_slc=1, line 176: Script terminated by timeout at:
+Sc@https://www.googletagmanager.com/gtag/js?id=G-1SPG0WZDNF&cx=c&_slc=1:176:124
+Vc@https://www.googletagmanager.com/gtag/js?id=G-1SPG0WZDNF&cx=c&_slc=1:177:37
+jn@https://www.googletagmanager.com/gtag/js?id=G-1SPG0WZDNF&cx=c&_slc=1:363:406
+hn.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-1SPG0WZDNF&cx=c&_slc=1:367:337
+hn.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-1SPG0WZDNF&cx=c&_slc=1:365:431
+an@https://www.googletagmanager.com/gtag/js?id=G-1SPG0WZDNF&cx=c&_slc=1:362:773
+OI/<@https://www.googletagmanager.com/gtag/js?id=G-1SPG0WZDNF&cx=c&_slc=1:650:187
+h.xl/<@https://www.googletagmanager.com/gtag/js?id=G-1SPG0WZDNF&cx=c&_slc=1:590:126
+h.xl/c/<@https://www.googletagmanager.com/gtag/js?id=G-1SPG0WZDNF&cx=c&_slc=1:589:418
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 569: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1732998723098	Marionette	INFO	Stopped listening on port 50924
+Dynamically enable window occlusion 1
+console.error: "Error in worker resource://devtools/client/shared/source-map-loader/worker.js" ": "
+console.error: (new Error("Data is not ready.", "resource://gre/modules/JSONFile.sys.mjs", 170))

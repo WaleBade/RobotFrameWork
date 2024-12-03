@@ -1,0 +1,15 @@
+1732998680507	geckodriver	INFO	Listening on 127.0.0.1:50981
+1732998683576	mozrunner::runner	INFO	Running command: "C:\\Users\\waleb\\.cache\\selenium\\firefox\\win64\\133.0\\firefox.exe" "--marionette" "--remote-debugging- ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\waleb\\AppData\\Local\\Temp\\rust_mozprofileY9jzdQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1732998684126	Marionette	INFO	Marionette enabled
+1732998684374	Marionette	INFO	Listening on port 50989
+WebDriver BiDi listening on ws://127.0.0.1:50982
+Read port: 50989
+1732998684724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/RJ33JqD_0F92LrPnHN8EXix2XvuHBMyQtF5rvO_qZuc.js line 2 > eval line 5755 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1732998721614	Marionette	INFO	Stopped listening on port 50989
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: AbortError: The operation was aborted. 
+JavaScript error: , line 0: AbortError: The operation was aborted. 

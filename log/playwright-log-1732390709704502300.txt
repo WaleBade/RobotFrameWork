@@ -1,0 +1,61 @@
+{"level":30,"time":"2024-11-23T19:38:32.769Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Listening on 52388"}
+(node:8932) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-11-23T19:38:33.104Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-23T19:38:33.106Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-23T19:38:33.111Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-23T19:38:33.111Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-23T19:38:33.126Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-11-23T19:38:34.933Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Adding browser to stack: chromium, version: 124.0.6367.29"}
+{"level":30,"time":"2024-11-23T19:38:34.934Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-11-23T19:38:34.934Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-11-23T19:38:34.945Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-11-23T19:38:34.946Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-11-23T19:38:35.059Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Changed active context"}
+{"level":30,"time":"2024-11-23T19:38:36.131Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Video path: undefined"}
+{"level":30,"time":"2024-11-23T19:38:36.131Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Changed active page"}
+{"level":30,"time":"2024-11-23T19:38:39.759Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"End of node method newPage"}
+{"level":30,"time":"2024-11-23T19:38:39.768Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method click"}
+{"level":30,"time":"2024-11-23T19:38:39.769Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Strict mode is enabled, find Locator with xpath=//button[@aria-label=\"Consent\"] in page."}
+{"level":30,"time":"2024-11-23T19:38:49.783Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Error of node method  click"}
+================= Original suppressed error =================
+locator.click: Timeout 10000ms exceeded.
+Call log:
+  [2m- waiting for locator('//button[@aria-label="Consent"]')[22m
+
+    at internalClick (C:\Users\waleb\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9758:19)
+    at async click (C:\Users\waleb\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:9739:18)
+    at async PlaywrightServer.click (C:\Users\waleb\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10708:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2024-11-23T19:38:49.826Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2024-11-23T19:38:49.826Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","Take screenshot with options: ":{"path":"C:\\Users\\waleb\\PycharmProjects\\BrowserLibraryTest\\log\\browser\\screenshot\\fail-screenshot-2.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2024-11-23T19:38:50.211Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2024-11-23T19:38:50.239Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-23T19:38:50.243Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-23T19:38:50.253Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-23T19:38:50.259Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-23T19:38:50.291Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Changed active context"}
+{"level":30,"time":"2024-11-23T19:38:50.292Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Changing current active page: page=f45dd3fb-a743-4e16-a267-ec10c413c4f2"}
+{"level":30,"time":"2024-11-23T19:38:50.292Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Changed active page"}
+{"level":30,"time":"2024-11-23T19:38:50.298Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-23T19:38:50.302Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-23T19:38:50.306Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-11-23T19:38:50.308Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-11-23T19:38:50.312Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2024-11-23T19:38:50.314Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2024-11-23T19:38:50.319Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Changing current active page: page=f45dd3fb-a743-4e16-a267-ec10c413c4f2"}
+{"level":30,"time":"2024-11-23T19:38:50.319Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Changed active page"}
+{"level":30,"time":"2024-11-23T19:38:50.326Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-23T19:38:50.330Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-23T19:38:50.334Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Changed active context"}
+{"level":30,"time":"2024-11-23T19:38:50.334Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Changing current active page: page=f45dd3fb-a743-4e16-a267-ec10c413c4f2"}
+{"level":30,"time":"2024-11-23T19:38:50.334Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Changed active page"}
+{"level":30,"time":"2024-11-23T19:38:50.338Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method closeContext"}
+{"level":30,"time":"2024-11-23T19:38:50.375Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Removed page=88965f3d-9a7b-4992-8882-8c1a2693aa06 from context=f9c70c5d-1e85-4a8f-a3bb-158663041abb page stack"}
+{"level":30,"time":"2024-11-23T19:38:50.413Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"End of node method closeContext"}
+{"level":30,"time":"2024-11-23T19:38:50.425Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-23T19:38:50.426Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-11-23T19:38:52.579Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2024-11-23T19:38:53.204Z","pid":8932,"hostname":"DESKTOP-JJV9NCV","msg":"End of node method closeAllBrowsers"}
