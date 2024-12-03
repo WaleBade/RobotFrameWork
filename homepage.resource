@@ -61,7 +61,7 @@ Hover over men and assert that correct items are listed
                  Wait Until Page Contains  ${dropdown_item2}
 
 Hover over men Tops and assert that correct items are listed
-                 #Men Tops content verification
+                 #Men Tops verification
                  [Arguments]  ${topslink1}  ${tops_item1}  ${tops_item2}  ${tops_item3}  ${tops_item4}
                  Mouse Over    ${topslink1}
                  Wait Until Page Contains   ${tops_item1}

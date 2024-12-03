@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation    Test senario related to Luma home page navigation
+Documentation    Test senarios related to Luma home page navigation
 Library          SeleniumLibrary
 Resource         homepage.resource
 Suite Setup      Navigate to Luma homepage
