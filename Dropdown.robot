@@ -63,4 +63,5 @@ Verify that cart button is visible
 Navigate to Luma homepage
                  Open Browser    https://magento.softwaretestingboard.com/   headlesschrome
                  Maximize Browser Window
-                 #Click Element   xpath://p[@class="fc-button-label"]
+                 Click Element   xpath://p[@class="fc-button-label"]
+                 Sleep    5

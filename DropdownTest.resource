@@ -26,6 +26,7 @@ Navigate to Luma homepage
                  Open Browser    ${URL}  ${BROWSER}
                  Maximize Browser Window
                  Click Element    ${CONSENT}
+                 Sleep    5
 
 Assert that Luma homepage has a logo
                  Page Should Contain Element    ${LOGOVERIFICATION}
